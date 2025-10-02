@@ -5,7 +5,7 @@
 
 ### Lab 1 - A Quick Start with Cadence
 
-##### *Peter Cheung, v1.1 - 2 October 2025*
+##### *Peter Cheung, v1.2 - 2 October 2025*
 
 ---
 ### Objectives
@@ -194,7 +194,7 @@ set_clock_transition -fall  50 ${CLOCK_NAME}
 ```
 These clock specifications are necessary for Genus' synthesis and optimization algorithms to try meet the timing requirements.
 
-**_Step 6: Synthesis to gates_**
+**_Step 6: Synthesize to gates_**
 
 Enter these Tcl commands in Genus:
 ```tcl
@@ -260,9 +260,9 @@ Congratulations!  You have managed to synthesize your HDL design into gates
 ```tcl
 source synth.tcl
 ```
-You should produce the same result as that after step 7.
+You should produce the same result from step 7.
 
-> From now on, you can run this script after you made changes to your desing.  Further, you can use this script as template to synthesize other new designs.
+> From now on, you can run this script after you have made changes to your design.  Further, you can use this script as template to synthesize other new designs.
 
 ---
 ### Task 3 - Place and Route the standard cells
